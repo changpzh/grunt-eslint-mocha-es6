@@ -1,0 +1,49 @@
+{
+  "name": "grunt-mocha",
+  "version": "1.0.0",
+  "description": "use mocha run UT",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/grunt test",
+    "ci": "./node_modules/.bin/grunt ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changpzh/grunt-mocha.git"
+  },
+  "keywords": [
+    "grunt",
+    "mocha",
+    "UT"
+  ],
+  "author": {
+    "name": "Zhou Changping",
+    "email": "changping.zhou@foxmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/changpzh/grunt-mocha/issues"
+  },
+  "homepage": "https://github.com/changpzh/grunt-mocha#readme",
+  "engines": {
+    "node": ">=6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "chai": "^4.1.2",
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "grunt": "^1.0.3",
+    "grunt-mocha-test": "^0.13.3",
+    "mocha": "^5.2.0",
+    "zurvan": "^0.5.2"
+  },
+  "peerDependencies": {
+    "grunt": ">=1"
+  }
+}
