@@ -1,7 +1,7 @@
 {
   "name": "grunt-mocha",
-  "version": "1.0.0",
-  "description": "use mocha run UT",
+  "version": "2.0.0",
+  "description": "start a project with eslint and mocha UT, you also can create a simple eslint rule, and publish it, then just import it",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/grunt test",
